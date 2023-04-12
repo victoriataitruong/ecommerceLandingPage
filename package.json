@@ -1,5 +1,5 @@
 {
-  "name": "nameofyourapp",
+  "name": "ecommercelandingpage",
   "version": "1.0.0",
   "description": "some description",
   "main": "./backend/server.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd ./backend && npm start",
     "frontend": "npm run start --prefix frontend",
-    "dev": "concurrently \"npm run start\" \"npm run frontend\""
+    "build": "concurrently \"npm run start\" \"npm run frontend\""
   },
   "engines": {
     "node": "16.x"
